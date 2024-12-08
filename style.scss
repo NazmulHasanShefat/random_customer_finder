@@ -1,3 +1,8 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
 .about_this{
     font-size: 14px;
 }
@@ -16,7 +21,6 @@
 @media screen and (max-width:580px) {
     .about_this{
         text-align: center;
-        font-size: 12px;
     }
     .about_heading{
         text-align: center;
@@ -39,4 +43,18 @@
     #get_winner{
         width: 100%;
     }
+}
+.prosesing{
+    animation: loader 1s linear infinite;
+}
+@keyframes loader {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.foot-container{
+    border-top:.5px solid #dbdada;
 }
