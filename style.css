@@ -48,6 +48,12 @@
   #get_winner {
     width: 100%;
   }
+  .navbar-nav {
+    text-align: center;
+  }
+  .R_btn {
+    margin-top: 11px;
+  }
 }
 .prosesing {
   animation: loader 1s linear infinite;
