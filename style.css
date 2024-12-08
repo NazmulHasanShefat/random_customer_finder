@@ -1,0 +1,46 @@
+.about_this {
+  font-size: 14px;
+}
+
+.content-all-hero {
+  margin-top: 70px;
+}
+
+.navbar {
+  padding: 10px 100px;
+}
+
+.navbar-toggler {
+  padding: 0;
+  margin-right: 16px;
+  margin-top: 1px;
+  font-size: 1.3rem;
+}
+
+@media screen and (max-width: 580px) {
+  .about_this {
+    text-align: center;
+    font-size: 12px;
+  }
+  .about_heading {
+    text-align: center;
+  }
+  .content-all-hero {
+    margin-top: 0;
+  }
+  .hero1-container {
+    padding: 0 20px;
+  }
+  .navbar {
+    padding: 10px 0;
+  }
+  .name-brand {
+    font-size: 1rem;
+  }
+  .hero1 {
+    padding-bottom: 100px;
+  }
+  #get_winner {
+    width: 100%;
+  }
+}/*# sourceMappingURL=style.css.map */
