@@ -18,6 +18,23 @@
     margin-top: 1px;
     font-size: 1.3rem;
 }
+.prosesing{
+    animation: loader 1s linear infinite;
+}
+@keyframes loader {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.foot-container{
+    margin-top: 300px !important;
+    border-top:.5px solid #dbdada;
+}
+
+
 @media screen and (max-width:580px) {
     .about_this{
         text-align: center;
@@ -35,10 +52,10 @@
         padding:10px 0;
     }
     .name-brand{
-        font-size: .8rem;
+        font-size: 1rem;
     }
     .offcanvas-title{
-        margin-left: 15px;
+        margin-left: auto;
     }
     .hero1{
         padding-bottom: 100px;
@@ -63,18 +80,7 @@
     .offcanvas-header {
         padding: var(--bs-offcanvas-padding-y) 0;
     }
-}
-.prosesing{
-    animation: loader 1s linear infinite;
-}
-@keyframes loader {
-    0%{
-        transform: rotate(0deg);
+    .foot-container{
+        margin-top: 0 !important;
     }
-    100%{
-        transform: rotate(360deg);
-    }
-}
-.foot-container{
-    border-top:.5px solid #dbdada;
 }
